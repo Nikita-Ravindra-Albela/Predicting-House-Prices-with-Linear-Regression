@@ -1,0 +1,35 @@
+## Impact Section
+
+## Business Problem
+
+Estimating housing prices accurately is vital for real-estate firms, brokers and investors to make informed decisions. This project aims to identify key drivers of price variation and build a regression model to predict market values.
+
+## Analytical Approach
+
+Performed exploratory data analysis to uncover relationships between housing features (area, number of rooms, location, furnishing status) and the target variable (price).
+
+Cleaned and pre-processed data: handled missing values, encoded categorical variables and removed outliers.
+
+Built a linear regression model (using scikit-learn) to predict house prices, and evaluated it using metrics like R², MSE and RMSE.
+
+Analyzed model coefficients to interpret feature importance and extract actionable insights.
+
+## Key Insights
+
+“Area” (square footage) and “number of rooms” showed the strongest linear association with price.
+
+Furnished homes and those in prime locations commanded higher premiums — underscoring the importance of non-size features.
+
+The model explained a large portion of variance in prices (e.g., R² ~ 0.80) and residuals exhibited approximately normal distribution, indicating good fit.
+
+## Business Impact 
+
+This regression framework equips stakeholders with a quantitative tool to forecast market values and identify which features add most value.
+
+Enables quicker pricing decisions, improved investment analysis and better portfolio risk assessment for real-estate businesses.
+
+Demonstrates end-to-end workflow—data preprocessing, modeling, interpretation—which highlights your capability to turn raw data into business insights.
+
+🛠 Tools Used
+
+Python | Pandas | NumPy | Matplotlib | Seaborn | scikit-learn | Jupyter Notebook
