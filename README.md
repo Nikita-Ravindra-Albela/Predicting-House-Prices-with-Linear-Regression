@@ -73,10 +73,10 @@ Key steps included:
 
 ## 📈 Results
 
-* **R² Score:** [Insert Value, e.g., 0.84] — indicating that the model explains 84% of the variance in house prices.
-* **MSE:** [Insert Value]
-* **RMSE:** [Insert Value]
-* Residuals were approximately normally distributed, suggesting a good model fit.
+MSE: 2292721545725.3662
+RMSE: 1514173.5520
+MAE: 1127483.3523
+R-squared: 0.5464
 
 **Interpretation:**
 Area and number of rooms had the most significant influence on price, confirming linear trends. The model performed well on the test data, demonstrating strong predictive capability for moderate to high-priced properties.
